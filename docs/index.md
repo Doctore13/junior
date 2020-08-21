@@ -1,37 +1,161 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Doctore!</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 
-You can use the [editor on GitHub](https://github.com/Doctore13/junior/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
+      body {
+        font-family: 'Fira Code', monospace;
+        color: rgb(46, 46, 46);
+      }
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+      .section {
+        padding-top: 20px;
+      }
 
-### Markdown
+      .d-bar {
+        width: 100%;
+        background-color: rgb(197, 197, 197);
+      }
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+      .bar {
+        height: 10px;
+        background-color: rgb(78, 78, 78);
+      }
 
-```markdown
-Syntax highlighted code block
+      .percent {
+        font-weight: bold;
+        text-align: center;
+        color: rgb(255, 255, 255);
+      }
 
-# Header 1
-## Header 2
-### Header 3
+      hr {
+        margin-top: 0px;
+        border: 1px solid rgb(131, 130, 130);
+      }
 
-- Bulleted
-- List
+      h1 {
+        font-weight: bold;
+        margin: 0px;
+      }
 
-1. Numbered
-2. List
+      h4 {
+        margin: 10px 0px 1px 0px;
+      }
 
-**Bold** and _Italic_ and `Code` text
+      li {
+        list-style: none;
+      }
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Doctore13/junior/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+      strong {
+        color: rgb(255, 255, 255);
+        background-color: rgb(46, 46, 46);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="section">
+        <h1 class="title">EDUCAÇÃO</h1>
+        <hr />
+        <h3>FORMAÇÃO</h3>
+        <ul>
+          <li>
+            ■ Análise e Desenvolvimento de Sistemas
+            <ul>
+              <li>
+                UniCeub - Centro Universitário de Brasília
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <h3>EM ANDAMENTO</h3>
+        <ul>
+          <li>
+            ■ BootCamp Desenvolvedor Full Stack - JavaScript, NodeJs, React,
+            MongoDB, Heroku | <strong>70% CONCLUÍDO</strong>
+            <ul>
+              <li>
+                IGTI – Instituto de Gestão e Tecnologia da Informação
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            ■ Spring Boot, Hibernate, REST, Ionic, JWT, S3, MySQL, MongoDB |
+            <strong>45% CONCLUÍDO</strong>
+            <ul>
+              <li>
+                Udemy
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <h3>PLATAFORMAS DE ESTUDO</h3>
+        <ul>
+          <li>
+            ■ Udemy, IGTI, Youtube(DevDojo, Loiane Groner, Gustavo Guanabara)
+            <ul>
+              <li>
+                JAVA, Spring Boot, Quarkus, Angular
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="section">
+        <h1 class="title">HABILIDADES</h1>
+        <hr />
+        <div class="row">
+          <div class="col">
+            <h4>Java</h4>
+            <div class="d-bar">
+              <div style="width: 75%;" class="bar"></div>
+            </div>
+            <h4>Spring Boot</h4>
+            <div class="d-bar">
+              <div style="width: 65%;" class="bar"></div>
+            </div>
+            <h4>MySQL/Hibernate</h4>
+            <div class="d-bar">
+              <div style="width: 70%;" class="bar"></div>
+            </div>
+          </div>
+          <div class="col">
+            <h4>HTML/CSS/JavaScript</h4>
+            <div class="d-bar">
+              <div style="width: 70%;" class="bar"></div>
+            </div>
+            <h4>Angular</h4>
+            <div class="d-bar">
+              <div style="width: 65%;" class="bar"></div>
+            </div>
+            <h4>Photoshop</h4>
+            <div class="d-bar">
+              <div style="width: 75%;" class="bar"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section mt-4" style="text-align: center;">
+        <h2 class="title">Desenvolvendo atualmente:</h2>
+        <a href="https://github.com/Doctore13/Alpha-api">
+          https://github.com/Doctore13/Alpha-api
+        </a>
+        <h5>Spring Boot, Hibernate, MySql, Angular</h5>
+        <h6>Apache Poi, Maven</h6>
+      </div>
+    </div>
+  </body>
+</html>
