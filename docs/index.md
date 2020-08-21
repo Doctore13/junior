@@ -38,6 +38,10 @@
         color: rgb(255, 255, 255);
       }
 
+      .head {
+        text-align: end;
+      }
+
       hr {
         margin-top: 0px;
         border: 1px solid rgb(131, 130, 130);
@@ -65,6 +69,8 @@
   <body>
     <div class="container">
       <div class="section">
+        <h4 class="head">Antonio Carlos, 28 anos</h4>
+        <h5 class="head">9 9994 9239</h5>
         <h1 class="title">EDUCAÇÃO</h1>
         <hr />
         <h3>FORMAÇÃO</h3>
