@@ -9,17 +9,20 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    
+
+    <title>Doctore!</title>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 
       body {
-        font-family: 'Fira Code', monospace !important;
+        font-family: 'Fira Code', monospace;
         color: rgb(46, 46, 46);
       }
 
       .section {
+        margin-top: 10px;
         padding-top: 20px;
+        position: relative;
       }
 
       .d-bar {
@@ -40,6 +43,9 @@
 
       .head {
         text-align: end;
+        position: absolute;
+        right: 0;
+        top: -1px;
       }
 
       hr {
@@ -69,8 +75,11 @@
   <body>
     <div class="container">
       <div class="section">
-        <h4 class="head">Antonio Carlos, 28 anos</h4>
-        <h5 class="head">9 9994 9239</h5>
+        <div class="head">
+          <h5>Antonio Carlos, 28 anos</h5>
+          <h6>9 9994 9239</h6>
+        </div>
+
         <h1 class="title">EDUCAÇÃO</h1>
         <hr />
         <h3>FORMAÇÃO</h3>
