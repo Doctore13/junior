@@ -9,13 +9,12 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
-    <title>Doctore!</title>
+    
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 
       body {
-        font-family: 'Fira Code', monospace;
+        font-family: 'Fira Code', monospace !important;
         color: rgb(46, 46, 46);
       }
 
